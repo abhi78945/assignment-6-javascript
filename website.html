@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <style> 
+
+    
+
+div:hover {
+    width: 300px;
+}
+
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+         
+        
+        </style> 
+
+
+<script> 
+ /*<button onclick="myFunction()">Toggle dark mode</button>*/
+var customerName = prompt("Please enter your name");
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+console.log(myFunction());
+</script>
+
+</head>
+
+<body>
+    <h2>Welocome To This Dark World</h2>
+    <p>Click the button to toggle between dark and light mode for this page.</p>
+    <button onclick="myFunction()">Toggle dark mode</button>
+   
+
+
+</body>
+</html>
